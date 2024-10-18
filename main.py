@@ -41,6 +41,7 @@ create_table(conn)
 
 
 def determine_honor(prediction):
+    # Determine which honours the predictions falls under 
     if prediction >= 4.50:
         return "First Class Honor"
     elif 3.50 <= prediction < 4.50:
